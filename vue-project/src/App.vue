@@ -5,11 +5,13 @@ import Biding from "./components/Biding.vue";
 import Props from "./components/Props.vue";
 import ReciveE from "./components/ReciveE.vue";
 import Effect from "./components/Effect.vue";
+import IfElse from "./components/IfElse.vue";
 </script>
 
 <template>
   <Header />
   <main>
+    <IfElse />
     <Effect />
     <ReciveE />
     <Reactives />
