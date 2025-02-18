@@ -8,12 +8,18 @@ const years = reactive({
     "year": 2024
 })
 
+const pairNumbers = ref(0)
+
 function fazeraniversario() {
     age.value++
 }
 
 function updateYear() {
     years.year += 1
+}
+
+function atualizarNumeroPar() {
+    pairNumbers.value += 2
 }
 
 </script>
@@ -26,6 +32,10 @@ function updateYear() {
     <div>
         <p>Ano Atual : {{ years.year }} </p>
         <button @click="updateYear">Atualizar Ano</button>
+    </div>
+    <div>
+        <p>Numeros Pares: {{ pairNumbers }} </p>
+        <button @click="atualizarNumeroPar">Atualizar numero par</button>
     </div>
 </template>
 

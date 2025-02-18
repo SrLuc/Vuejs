@@ -1,12 +1,12 @@
 <script setup>
 import Header from './components/Header.vue'
-import Card from './components/Card.vue';
+import Reactives from './components/Reactives.vue';
 </script>
 
 <template>
     <Header />
     <main>
-        <Card />
+        <Reactives />
         <p>Content goes here</p>
     </main>
 </template>
