@@ -4,11 +4,13 @@ import Reactives from "./components/Reactives.vue";
 import Biding from "./components/Biding.vue";
 import Props from "./components/Props.vue";
 import ReciveE from "./components/ReciveE.vue";
+import Effect from "./components/Effect.vue";
 </script>
 
 <template>
   <Header />
   <main>
+    <Effect />
     <ReciveE />
     <Reactives />
     <Biding />
