@@ -6,11 +6,13 @@ import Props from "./components/Props.vue";
 import ReciveE from "./components/ReciveE.vue";
 import Effect from "./components/Effect.vue";
 import IfElse from "./components/IfElse.vue";
+import List from "./components/List.vue";
 </script>
 
 <template>
   <Header />
   <main>
+    <List />
     <IfElse />
     <Effect />
     <ReciveE />
