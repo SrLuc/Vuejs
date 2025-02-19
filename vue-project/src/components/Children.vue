@@ -2,7 +2,8 @@
 
 <template>
   <div>
-    <slot></slot>
+    <slot name="icon"></slot>
+    <slot name="text"></slot>
   </div>
 </template>
 
