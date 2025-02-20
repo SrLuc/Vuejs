@@ -7,7 +7,7 @@ import ReciveE from "../components/ReciveE.vue";
 import Effect from "../components/Effect.vue";
 import IfElse from "../components/IfElse.vue";
 import List from "../components/List.vue";
-import Children from "../components/Children.vue";
+import Container from "../components/Container.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -27,7 +27,7 @@ const routes = [
   { path: "/effect", name: "Effect", component: Effect },
   { path: "/ifelse", name: "IfElse", component: IfElse },
   { path: "/list", name: "List", component: List },
-  { path: "/children", name: "Children", component: Children },
+  { path: "/children", name: "Children", component: Container },
 ];
 
 const router = createRouter({

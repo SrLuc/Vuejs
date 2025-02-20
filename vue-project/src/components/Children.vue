@@ -1,18 +1,19 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="container">
     <slot name="icon"></slot>
     <slot name="text"></slot>
   </div>
 </template>
 
 <style scoped>
-div {
+.container {
   display: flex;
-  justify-content: left;
   align-items: center;
-  padding: 5px;
+  justify-content: center;
+  flex-direction: column;
   margin: 20px;
+  gap: 8px;
 }
 </style>
