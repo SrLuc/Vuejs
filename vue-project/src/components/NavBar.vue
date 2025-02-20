@@ -11,6 +11,7 @@
       <li><router-link to="/list">List</router-link></li>
       <li><router-link to="/children">Children</router-link></li>
       <li><router-link to="/api">Api</router-link></li>
+      <li><router-link to="/advice">Advice</router-link></li>
     </ul>
   </nav>
 </template>

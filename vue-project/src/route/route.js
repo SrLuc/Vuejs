@@ -9,6 +9,7 @@ import IfElse from "../components/IfElse.vue";
 import List from "../components/List.vue";
 import Container from "../components/Container.vue";
 import Api from "../components/Api.vue";
+import Advice from "../components/Advice.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -30,6 +31,7 @@ const routes = [
   { path: "/list", name: "List", component: List },
   { path: "/children", name: "Children", component: Container },
   { path: "/api", name: "api", component: Api },
+  { path: "/advice", name: "advice", component: Advice },
 ];
 
 const router = createRouter({
