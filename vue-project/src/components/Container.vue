@@ -14,6 +14,10 @@ import Children from "../components/Children.vue";
     <template #text>
       <h2>Children</h2>
     </template>
+    <template #home>
+      <h4>Back to Home Page</h4>
+      <router-link to="/">Home</router-link>
+    </template>
   </Children>
 </template>
 

@@ -8,6 +8,7 @@ import Effect from "../components/Effect.vue";
 import IfElse from "../components/IfElse.vue";
 import List from "../components/List.vue";
 import Container from "../components/Container.vue";
+import Api from "../components/Api.vue";
 
 const routes = [
   { path: "/", name: "Home", component: Home },
@@ -28,6 +29,7 @@ const routes = [
   { path: "/ifelse", name: "IfElse", component: IfElse },
   { path: "/list", name: "List", component: List },
   { path: "/children", name: "Children", component: Container },
+  { path: "/api", name: "api", component: Api },
 ];
 
 const router = createRouter({

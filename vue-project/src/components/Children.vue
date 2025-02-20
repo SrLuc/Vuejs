@@ -4,6 +4,7 @@
   <div class="container">
     <slot name="icon"></slot>
     <slot name="text"></slot>
+    <slot name="home"></slot>
   </div>
 </template>
 
